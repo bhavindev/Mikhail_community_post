@@ -1,7 +1,7 @@
 export interface Comment {
   id: string;
   text: string;
-  author?: string; // Optional for user name
+  author?: string;
   replies: Comment[];
   imageUrl?: string;
 }

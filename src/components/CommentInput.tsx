@@ -26,13 +26,6 @@ function CommentInput({
 
   return (
     <Box sx={{ display: "flex", flexDirection: "column", gap: 1, mt: 1 }}>
-      {/* <TextField
-        fullWidth
-        value={authorName}
-        onChange={(e) => setAuthorName(e.target.value)}
-        placeholder="Your Name"
-        variant="outlined"
-      /> */}
       <TextField
         fullWidth
         multiline

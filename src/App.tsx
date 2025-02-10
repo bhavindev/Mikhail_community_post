@@ -25,7 +25,6 @@ function App() {
   const handleAddPost = () => {
     if (newPostText.trim() === "") return;
 
-    // Pick a random author from the list
     const randomAuthor = authors[Math.floor(Math.random() * authors.length)];
 
     setPosts([
